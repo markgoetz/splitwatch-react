@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.right {
+  margin-top: 20px;
+}
+
+@media (min-width: 769px) {
+  .layout {
+    flex-direction: row;
+  }
+
+  .left {
+    flex-basis: 75%;
+  }
+
+  .right {
+    margin-top: 0;
+    margin-left: 40px;
+    flex-basis: 25%;
+  }
+}

@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #EDE026;
+    --primary-color-shade: #C1B722;
+    --secondary-color: #3FC4F1;
+    --secondary-color-dark: #037195;
+    --darkest-grey: #222222;
+    --dark-grey: #5E6060;
+    --light-grey: #F3F5F6;
+    --medium-grey: #D2D4D4;
+    --medium-grey-shade: #8F9191;
+
+    --font-monospace: 'Fira Mono', monospace;
+    --font-sans: 'Fira Sans', sans-serif;
+}

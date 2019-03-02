@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading Component Level 1 renders correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<h1>Level 1</h1>
+
+`;
+
+exports[`Heading Component Level 2 renders correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<h2>Level 2</h2>
+
+`;
+
+exports[`Heading Component Level 3 renders correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<h3>Level 3</h3>
+
+`;
+
+exports[`Heading Component Level 4 renders correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<h4>Level 4</h4>
+
+`;
+
+exports[`Heading Component Level 5 renders correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<h5>Level 5</h5>
+
+`;
+
+exports[`Heading Component Level 6 renders correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<h6>Level 6</h6>
+
+`;

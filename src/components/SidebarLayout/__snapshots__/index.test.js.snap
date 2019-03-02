@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Layout Component renders correctly with two children 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div>
+  <div>
+    <div>Test 1!</div>
+  </div>
+  <div>
+    <div>Test 2!</div>
+  </div>
+</div>
+
+`;

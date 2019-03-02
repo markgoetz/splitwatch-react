@@ -1,0 +1,27 @@
+.verticalLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.verticalLayout > * + * {
+  margin-top: 10px;
+}
+
+@media (min-width: 769px) {
+  .verticalLayout > * + * {
+    margin-top: 20px;
+  }
+}
+
+.center {
+  align-items: center;
+}
+
+.left {
+  align-items: flex-start;
+}
+
+.right {
+  align-items: flex-end;
+}

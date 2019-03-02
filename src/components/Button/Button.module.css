@@ -1,0 +1,24 @@
+.button {
+  font-family: var(--font-sans);
+  font-weight: bold;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  color: var(--darkest-grey);
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--primary-color);
+  font-size: 35px;
+  box-shadow: 0 4px var(--primary-color-shade);
+  padding: 80px;
+}
+
+.secondary {
+  background-color: var(--medium-grey);
+  font-size: 20px;
+  box-shadow: 0 4px var(--medium-grey-shade);
+  padding: 15px;
+}

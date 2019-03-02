@@ -1,0 +1,23 @@
+.horizontalLayout {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: column;
+}
+
+@media (min-width: 769px) {
+  .horizontalLayout {
+    grid-gap: 20px;
+  }
+}
+
+.top {
+  align-items: flex-start;
+}
+
+.middle {
+  align-items: center;
+}
+
+.bottom {
+  align-items: flex-end;
+}

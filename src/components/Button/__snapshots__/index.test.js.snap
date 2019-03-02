@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders correctly in primary 1`] = `
+preact-render-spy (1 nodes)
+-------
+<button class=" "></button>
+
+`;
+
+exports[`Button Component renders correctly when not primary 1`] = `
+preact-render-spy (1 nodes)
+-------
+<button class=" "></button>
+
+`;

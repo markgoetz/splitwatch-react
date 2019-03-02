@@ -1,0 +1,34 @@
+@import './reset.css';
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Fira+Sans:400,700');
+@import './vars.css';
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#app {
+    height: 100%;
+}
+
+.top_padding {
+    padding-top: 20px;
+}
+
+.theme_light {
+    background-color: var(--light-grey);
+    color: var(--darkest-grey);
+}
+
+.theme_dark {
+    background: var(--darkest-grey);
+    color: var(--primary-color);
+}

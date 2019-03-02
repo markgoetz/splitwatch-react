@@ -1,0 +1,5 @@
+.timer {
+    font-family: var(--font-monospace);
+    font-size: 52px;
+    font-weight: bold;
+}

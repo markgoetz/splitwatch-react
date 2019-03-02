@@ -1,0 +1,11 @@
+.list {
+  list-style: decimal;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.split {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  padding: 5px 0;
+}

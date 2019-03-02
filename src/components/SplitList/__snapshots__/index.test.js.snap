@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SplitList renders correctly with no splits 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div>
+  <Heading level="2">Splits</Heading>
+  <ol></ol>
+</div>
+
+`;
+
+exports[`SplitList renders correctly with splits 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div>
+  <Heading level="2">Splits</Heading>
+  <ol>
+    <li>00:00:00.0</li>
+    <li>00:00:00.0</li>
+    <li>00:00:00.0</li>
+    <li>00:00:00.0</li>
+    <li>00:00:00.0</li>
+  </ol>
+</div>
+
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimerView Renders correctly with no splits 1`] = `
+preact-render-spy (1 nodes)
+-------
+<Wrapper align="left">
+  <VerticalLayout align="left">
+    <TimerComponent
+      isPlaying={true}
+      startTime={1000}
+      baseTime={2000}
+    >
+    </TimerComponent>
+    <SplitList></SplitList>
+  </VerticalLayout>
+</Wrapper>
+
+`;
+
+exports[`TimerView Renders correctly with splits 1`] = `
+preact-render-spy (1 nodes)
+-------
+<Wrapper align="left">
+  <VerticalLayout align="left">
+    <TimerComponent
+      isPlaying={true}
+      startTime={1000}
+      baseTime={2000}
+      splits={
+        Array [
+          500,
+          700
+        ]
+      }
+    >
+    </TimerComponent>
+    <SplitList
+      splits={
+        Array [
+          500,
+          700
+        ]
+      }
+    >
+    </SplitList>
+  </VerticalLayout>
+</Wrapper>
+
+`;

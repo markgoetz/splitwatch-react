@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Horizontal Layout Horizontal layout renders correctly 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div class="undefined ">
+  <div>Test element</div>
+  <button>Test button</button>
+  <div>Extra test element</div>
+</div>
+
+`;
+
+exports[`Horizontal Layout Horizontal layout renders correctly when bottom-aligned 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div class="undefined undefined">
+  <div>Test element</div>
+  <button>Test button</button>
+  <div>Extra test element</div>
+</div>
+
+`;
+
+exports[`Horizontal Layout Horizontal layout renders correctly when centered 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div class="undefined undefined">
+  <div>Test element</div>
+  <button>Test button</button>
+  <div>Extra test element</div>
+</div>
+
+`;
+
+exports[`Horizontal Layout Horizontal layout renders correctly when top-aligned 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div class="undefined undefined">
+  <div>Test element</div>
+  <button>Test button</button>
+  <div>Extra test element</div>
+</div>
+
+`;

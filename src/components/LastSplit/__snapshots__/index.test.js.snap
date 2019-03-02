@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LastSplit renders correctly with a split 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div>Last split: 00:00:00.3</div>
+
+`;
+
+exports[`LastSplit renders correctly with no splits 1`] = `
+preact-render-spy (1 nodes)
+-------
+<div>No splits recorded</div>
+
+`;

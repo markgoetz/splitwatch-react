@@ -1,0 +1,28 @@
+.level1, .level2, .level3, .level4, .level5, .level6 {
+  font-family: var(--font-sans);
+  font-weight: bold;
+}
+
+.level1 {
+  font-size: 28px;
+}
+
+.level2 {
+  font-size: 24px;
+}
+
+.level3 {
+  font-size: 22px;
+}
+
+.level4 {
+  font-size: 20px;
+}
+
+.level5 {
+  font-size: 18px;
+}
+
+.level6 {
+  font-size: 16px;
+}
