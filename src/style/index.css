@@ -6,6 +6,10 @@
 @import './components/_hdg.css';
 @import './components/_form.css';
 
+@import './objects/_horizontal.css';
+@import './objects/_sidebar.css';
+@import './objects/_vertical.css';
+
 html, body {
     height: 100%;
     width: 100%;

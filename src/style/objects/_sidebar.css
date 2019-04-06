@@ -1,0 +1,16 @@
+
+.o-sidebar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.o-sidebar > *:first-child {
+    flex-basis: 75%;
+}
+
+.o-sidebar > *:last-child {
+    margin-left: 40px;
+    flex-basis: 25%;
+}
+  

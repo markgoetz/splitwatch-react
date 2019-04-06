@@ -1,0 +1,23 @@
+.o-horizontal {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-flow: column;
+}
+  
+@media (min-width: 769px) {
+    .o-horizontal {
+        grid-gap: 20px;
+    }
+}
+  
+.o-horizontal--top {
+    align-items: flex-start;
+}
+  
+.o-horizontal--middle {
+    align-items: center;
+}
+  
+.o-horizontal--bottom {
+    align-items: flex-end;
+}
