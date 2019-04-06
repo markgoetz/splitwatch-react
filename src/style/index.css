@@ -1,32 +1,13 @@
 @import './reset.css';
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Fira+Sans:400,700');
+@import './elements.css';
 @import './vars.css';
 
 @import './components/_btn.css';
 @import './components/_hdg.css';
 @import './components/_form.css';
 
+@import './objects/_app.css';
 @import './objects/_horizontal.css';
 @import './objects/_sidebar.css';
 @import './objects/_vertical.css';
-
-html, body {
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-#app {
-    height: 100%;
-}
-
-.top_padding {
-    padding-top: 20px;
-}

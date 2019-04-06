@@ -1,0 +1,11 @@
+.o-app {
+    height: 100%;
+}
+
+.o-app__hd {
+    margin-bottom: var(--vr-x4);
+}
+
+.o-app__ft {
+    margin-top: var(--vr-x2);
+}
