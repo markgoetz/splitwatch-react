@@ -3,6 +3,7 @@
 @import './vars.css';
 
 @import './components/_btn.css';
+@import './components/_hdg.css';
 @import './components/_form.css';
 
 html, body {

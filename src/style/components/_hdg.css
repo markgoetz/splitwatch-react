@@ -1,0 +1,28 @@
+.c-hdg {
+    font-family: var(--font-sans);
+    font-weight: bold;
+}
+
+.c-hdg--1 {
+    font-size: 28px;
+}
+
+.c-hdg--2 {
+    font-size: 24px;
+}
+
+.c-hdg--3 {
+    font-size: 22px;
+}
+
+.c-hdg--4 {
+    font-size: 20px;
+}
+
+.c-hdg--5 {
+    font-size: 18px;
+}
+
+.c-hdg--6 {
+    font-size: 16px;
+}

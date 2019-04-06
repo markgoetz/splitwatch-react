@@ -1,9 +1,8 @@
 import React from 'react';
-import Heading from '../Heading/Heading';
 import styles from './Header.module.css';
 
 export default function Header(props) {
   return (<div className={styles.headerBg}>
-    <Heading level="1">SplitWatch</Heading>
+    <h1 className="c-hdg c-hdg--1">SplitWatch</h1>
   </div>);
 }
