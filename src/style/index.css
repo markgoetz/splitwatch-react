@@ -22,13 +22,3 @@ html, body {
 .top_padding {
     padding-top: 20px;
 }
-
-.theme_light {
-    background-color: var(--light-grey);
-    color: var(--darkest-grey);
-}
-
-.theme_dark {
-    background: var(--darkest-grey);
-    color: var(--primary-color);
-}

@@ -1,6 +1,6 @@
 .headerBg {
-    color: var(--primary-color);
-    background-color: var(--darkest-grey);
+    color: var(--color-primary);
+    background-color: var(--color-grey-darkest);
     text-align: center;
     padding: 20px 0;
     margin-bottom: 40px;

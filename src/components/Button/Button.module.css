@@ -4,21 +4,21 @@
   display: block;
   border-radius: 5px;
   text-align: center;
-  color: var(--darkest-grey);
+  color: var(--color-grey-darkest);
   border: none;
   cursor: pointer;
 }
 
 .primary {
-  background-color: var(--primary-color);
+  background-color: var(--color-primary);
   font-size: 35px;
-  box-shadow: 0 4px var(--primary-color-shade);
+  box-shadow: 0 4px var(--color-primary-shade);
   padding: 80px;
 }
 
 .secondary {
-  background-color: var(--medium-grey);
+  background-color: var(--color-grey-medium);
   font-size: 20px;
-  box-shadow: 0 4px var(--medium-grey-shade);
+  box-shadow: 0 4px var(--color-grey-medium-shade);
   padding: 15px;
 }
