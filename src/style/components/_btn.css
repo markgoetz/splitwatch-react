@@ -1,0 +1,24 @@
+.c-btn {
+    font-family: var(--font-sans);
+    font-weight: bold;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    color: var(--color-grey-darkest);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .c-btn--primary {
+    background-color: var(--color-primary);
+    font-size: 35px;
+    box-shadow: 0 4px var(--color-primary-shade);
+    padding: 80px;
+  }
+  
+  .c-btn--secondary {
+    background-color: var(--color-grey-medium);
+    font-size: 20px;
+    box-shadow: 0 4px var(--color-grey-medium-shade);
+    padding: 15px;
+  }

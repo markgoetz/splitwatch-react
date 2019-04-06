@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,700|Fira+Sans:400,700');
 @import './vars.css';
 
+@import './components/_btn.css';
+@import './components/_form.css';
+
 html, body {
     height: 100%;
     width: 100%;
