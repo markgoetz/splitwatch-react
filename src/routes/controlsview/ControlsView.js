@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Wrapper from '../../components/Wrapper/Wrapper';
 import TimerProvider from '../../components/TimerProvider/TimerProvider';
 import TimerComponent from '../../components/TimerComponent/TimerComponent';
 import LastSplit from '../../components/LastSplit/LastSplit';
@@ -17,27 +16,25 @@ export default class ControlsView extends Component {
     render() {
         return (<div>
             <TimerProvider>
-                <Wrapper align="center">
-                    <div className="o-vertical o-vertical--center">
-                        <TimerComponent />
-                        <LastSplit />
-                        <div className="o-sidebar">
-                            <div className="o-vertical">
-                                <StartSplitButton />
-                                <div className="o-horizontal">
-                                    <TimerContext.Consumer>
-                                        {(context => <>
-                                            <button className="c-btn c-btn--secondary" onClick={() => context.pause(Date.now())}>Pause</button>
-                                            <button className="c-btn c-btn--secondary" onClick={() => context.stop(Date.now())}>Stop</button>
-                                            <button className="c-btn c-btn--secondary" onClick={() => context.reset(Date.now())}>Reset</button>
-                                        </> )}
-                                    </TimerContext.Consumer>
-                                </div>
+                <div className="o-vertical o-vertical--center">
+                    <TimerComponent />
+                    <LastSplit />
+                    <div className="o-sidebar">
+                        <div className="o-vertical">
+                            <StartSplitButton />
+                            <div className="o-horizontal">
+                                <TimerContext.Consumer>
+                                    {(context => <>
+                                        <button className="c-btn c-btn--secondary" onClick={() => context.pause(Date.now())}>Pause</button>
+                                        <button className="c-btn c-btn--secondary" onClick={() => context.stop(Date.now())}>Stop</button>
+                                        <button className="c-btn c-btn--secondary" onClick={() => context.reset(Date.now())}>Reset</button>
+                                    </> )}
+                                </TimerContext.Consumer>
                             </div>
-                            <SplitList />
                         </div>
+                        <SplitList />
                     </div>
-                </Wrapper>
+                </div>
             </TimerProvider>
         </div>);
     }

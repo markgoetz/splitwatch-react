@@ -6,6 +6,11 @@
     margin-bottom: var(--vr-x4);
 }
 
+.o-app__bd {
+    width: 600px;
+    margin: 0 auto;
+}
+
 .o-app__ft {
     margin-top: var(--vr-x2);
 }

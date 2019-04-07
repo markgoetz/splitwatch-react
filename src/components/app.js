@@ -31,7 +31,7 @@ export default function(props) {
                     <Route exact path="/" component={IndexView} />
                     <Route exact path="/newsplit" component={NewSplitView} />
                 </Router>
-                </div>
+            </div>
             <div className="o-app__ft"></div>
         </div>
     );
