@@ -1,5 +1,27 @@
 .c-form {
-    background-color: var(--color-grey-light);
-    border-radius: 5px;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: var(--vr-x2);
+}
+
+.c-form__label {
+    text-align: right;
+    font-family: var(--font-sans);
+    font-weight: bold;
+    font-size: 19px;
+    grid-column-start: 1;
+    align-self: center;
+}
+
+.c-form__field {
+    width: 100%;
+    grid-column-start: 2;
+}
+
+.c-form__action {
+    grid-column-start: 3;
+}
+
+.c-form__fullrow {
+    grid-column: 1 / span 3; 
 }

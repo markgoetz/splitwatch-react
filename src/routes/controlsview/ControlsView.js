@@ -25,9 +25,9 @@ export default class ControlsView extends Component {
                             <div className="o-horizontal">
                                 <TimerContext.Consumer>
                                     {(context => <>
-                                        <button className="c-btn c-btn--secondary" onClick={() => context.pause(Date.now())}>Pause</button>
-                                        <button className="c-btn c-btn--secondary" onClick={() => context.stop(Date.now())}>Stop</button>
-                                        <button className="c-btn c-btn--secondary" onClick={() => context.reset(Date.now())}>Reset</button>
+                                        <button type="button" className="c-btn c-btn--secondary" onClick={() => context.pause(Date.now())}>Pause</button>
+                                        <button type="button" className="c-btn c-btn--secondary" onClick={() => context.stop(Date.now())}>Stop</button>
+                                        <button type="button" className="c-btn c-btn--secondary" onClick={() => context.reset(Date.now())}>Reset</button>
                                     </> )}
                                 </TimerContext.Consumer>
                             </div>

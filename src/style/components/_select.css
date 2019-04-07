@@ -1,0 +1,9 @@
+.c-select {
+    background-color: var(--color-grey-lightest);
+    border: solid 1px #979797;
+    color: var(--grey-dark);
+    width: 100%;
+    font-family: var(--font-sans);
+    font-size: 18px;
+    box-shadow: 0 2px var(--color-grey-medium-shade);
+}

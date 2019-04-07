@@ -3,9 +3,13 @@
 @import './elements.css';
 @import './vars.css';
 
+@import './components/_box.css';
 @import './components/_btn.css';
-@import './components/_hdg.css';
 @import './components/_form.css';
+@import './components/_hdg.css';
+@import './components/_input.css';
+@import './components/_select.css';
+@import './components/_txt.css';
 
 @import './objects/_app.css';
 @import './objects/_horizontal.css';

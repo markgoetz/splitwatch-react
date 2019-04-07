@@ -13,12 +13,12 @@
     background-color: var(--color-primary);
     font-size: 35px;
     box-shadow: 0 4px var(--color-primary-shade);
-    padding: 80px;
+    padding: 20px 80px;
   }
   
   .c-btn--secondary {
     background-color: var(--color-grey-medium);
     font-size: 20px;
     box-shadow: 0 4px var(--color-grey-medium-shade);
-    padding: 15px;
+    padding: 10px 20px;
   }
