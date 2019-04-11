@@ -20,5 +20,13 @@
     background-color: var(--color-grey-medium);
     font-size: 20px;
     box-shadow: 0 4px var(--color-grey-medium-shade);
-    padding: 10px 20px;
+    padding: 15px 20px;
+    height: 50px;
+  }
+
+  .c-btn--remove {
+    height: 50px;
+    padding: 12px;
+    background-color: var(--color-warm);
+    box-shadow: 0 2px var(--color-warm-shade);
   }

@@ -1,0 +1,17 @@
+.o-vr {
+    height: 0;
+    margin-bottom: var(--vr);
+}
+
+.o-vr--x2 {
+    margin-bottom: var(--vr-x2);
+}
+
+.o-vr--x3 {
+    margin-bottom: var(--vr-x3);
+}
+
+.o-vr--x4 {
+    margin-bottom: var(--vr-x4);
+}
+
