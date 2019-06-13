@@ -11,6 +11,7 @@
     font-size: 19px;
     grid-column-start: 1;
     align-self: center;
+    color: var(--color-grey-dark);
 }
 
 .c-form__field {

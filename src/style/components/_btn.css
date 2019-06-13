@@ -1,32 +1,37 @@
 .c-btn {
-    font-family: var(--font-sans);
-    font-weight: bold;
-    display: block;
-    border-radius: 5px;
-    text-align: center;
-    color: var(--color-grey-darkest);
-    border: none;
-    cursor: pointer;
-  }
-  
-  .c-btn--primary {
-    background-color: var(--color-primary);
-    font-size: 35px;
-    box-shadow: 0 4px var(--color-primary-shade);
-    padding: 20px 80px;
-  }
-  
-  .c-btn--secondary {
-    background-color: var(--color-grey-medium);
-    font-size: 20px;
-    box-shadow: 0 4px var(--color-grey-medium-shade);
-    padding: 15px 20px;
-    height: 50px;
-  }
+  font-family: var(--font-sans);
+  font-weight: bold;
+  display: block;
+  border-radius: 5px;
+  text-align: center;
+  color: var(--color-grey-darkest);
+  border: none;
+  cursor: pointer;
+}
 
-  .c-btn--remove {
-    height: 50px;
-    padding: 12px;
-    background-color: var(--color-warm);
-    box-shadow: 0 2px var(--color-warm-shade);
-  }
+.c-btn--primary {
+  background-color: var(--color-primary);
+  font-size: 35px;
+  box-shadow: 0 4px var(--color-primary-shade);
+  padding: 20px 80px;
+}
+
+.c-btn--primary[disabled] {
+  background-color: var(--color-grey-medium);
+  color: var(--color-grey-dark);
+}
+
+.c-btn--secondary {
+  background-color: var(--color-grey-medium);
+  font-size: 20px;
+  box-shadow: 0 4px var(--color-grey-medium-shade);
+  padding: 15px 20px;
+  height: 50px;
+}
+
+.c-btn--remove {
+  height: 50px;
+  padding: 12px;
+  background-color: var(--color-warm);
+  box-shadow: 0 2px var(--color-warm-shade);
+}

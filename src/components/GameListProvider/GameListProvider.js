@@ -21,7 +21,7 @@ export default class GameListProvider extends React.Component {
         </GameListContext.Provider>
     }
 
-    addGame(gameId, gameTitle) {
+    addGame = (gameId, gameTitle) => {
         if (this.state.games[gameId] != null) {
             return;
         }
@@ -37,9 +37,14 @@ export default class GameListProvider extends React.Component {
         });
     }
 
-    addCategory(gameId, categoryId, categoryTitle) {
-        const newGame = this.state.games[gameId];
-        if (newGame != null || newGame.categories[categoryId] != null) {
+    addCategory = (gameId, categoryId, categoryTitle) => {
+        let newGame = this.state.games[gameId];
+
+        if (newGame == null) {
+            newGame = { title: gameId, categories: {} };
+        }
+
+        if (newGame.categories[categoryId] != null) {
             return;
         }
 
@@ -56,7 +61,7 @@ export default class GameListProvider extends React.Component {
         });
     }
 
-    setSplits(gameId, categoryId, splits) {
+    setSplits = (gameId, categoryId, splits) => {
         const game = this.state.games[gameId];
         if (game == null) {
             return;
@@ -84,11 +89,11 @@ export default class GameListProvider extends React.Component {
         });
     }
 
-    getGames() {
+    getGames = () => {
         return this.state.games;
     }
 
-    getCategoriesForGame(gameId) {
+    getCategoriesForGame = (gameId) => {
         return this.state.games[gameId].categories;
     }
 }

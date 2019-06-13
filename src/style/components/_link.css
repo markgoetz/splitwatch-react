@@ -2,4 +2,5 @@
     font-family: var(--font-sans);
     font-weight: bold;
     font-size: 18px;
+    color: var(--color-secondary-dark);
 }

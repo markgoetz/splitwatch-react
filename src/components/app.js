@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import ControlsView from '../routes/controlsview/ControlsView';
 import IndexView from '../routes/indexview/IndexView';
 import NewSplitView from '../routes/newsplitview/NewSplitView';
 import Header from '../components/Header/Header';
 
 import '../style/index.css';
+import GameListProvider from './GameListProvider/GameListProvider';
 
 const initialTimer = {
     isPlaying: false,
@@ -23,14 +24,18 @@ export default function(props) {
                 <Header/>
             </div>
             <div className="o-app__bd">
-                <Router>
-                    <Route exact path="/controls" render={props => <ControlsView startTime={timer.startTime}
-                    baseTime={timer.baseTime}
-                    isPlaying={timer.isPlaying}
-                    splits={splits} />}></Route>
-                    <Route exact path="/" component={IndexView} />
-                    <Route exact path="/newsplit" component={NewSplitView} />
-                </Router>
+                <GameListProvider>
+                    <Router>
+                        <Switch>
+                            <Route exact path="/controls" render={props => <ControlsView startTime={timer.startTime}
+                            baseTime={timer.baseTime}
+                            isPlaying={timer.isPlaying}
+                            splits={splits} />}></Route>
+                            <Route exact path="/" component={IndexView} />
+                            <Route exact path="/newsplit" component={NewSplitView} />
+                        </Switch>
+                    </Router>
+                </GameListProvider>
             </div>
             <div className="o-app__ft"></div>
         </div>
